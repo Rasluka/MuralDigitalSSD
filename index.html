@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mural Digital!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <h1 id="big-title">Los Dispositivos de Estados Sólidos</h1>
+
+    <div class="row">
+        <div class="col-5">
+            <h2>¿Qué es una unidad de estado sólido?</h2>
+
+            <img id="ssd-icon" src="/src/ssd-icon.png" alt="">
+
+            <p>Los SSD reemplazan los discos duros mecánicos tradicionales con una memoria basada en flash, significativamente más rápida.</p>
+            
+            <button id="ssd-icon-btn" class="btn btn-special">Mas informacion</button>
+
+            <div id="modal-1" class="modal">
+                <div class="ssd-info-content">
+
+                    <img id="ssd-icon" src="/src/ssd-icon.png" alt="">
+                    <p>Un <span class="special-text">SDD (unidad de estado sólido)</span> es una nueva generación de dispositivos de almacenamiento que se emplea en equipos. Los SSD reemplazan los discos duros mecánicos tradicionales con una memoria basada en flash, significativamente más rápida. Las antiguas tecnologías de almacenamiento en disco duro son más lentas, lo que suele provocar que su equipo funcione más lento de lo que debería. Los SSD aceleran los equipos de forma significativa gracias a su bajo tiempo de acceso de lectura y su veloz rendimiento.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-7">
+            <h2>¿Para qué se utilizan las unidades de estado sólido?</h2>
+
+            <p>Los SSD comenzaron a adoptarse en áreas tecnológicas de gran rendimiento y entre los entusiastas de la informática, para los cuales el tiempo de acceso extremadamente bajo y el elevado rendimiento justifican el mayor precio. </p>
+        
+            Areas de uso (Click en los iconos): <br>
+
+            <img id="img-enterprise" class="usage-icon" src="/src/enterprise.png" alt="">
+
+            <div id="modal-enterprise" class="modal">
+                <div class="ssd-info-content">
+                    <img id="ssd-icon" src="/src/enterprise.png" alt="">
+                    <p><span class="special-text">Las empresas</span> que trabajan con enormes cantidades de datos (como los entornos de programación o el análisis de datos) suelen utilizar SSD, ya que el tiempo de acceso y la velocidad de transferencia de archivos son cruciales.</p>
+                </div>
+            </div>
+
+            <img id="img-game" class="usage-icon" src="/src/videogame.png" alt="">
+
+            <div id="modal-game" class="modal">
+                <div class="ssd-info-content">
+                    <img id="ssd-icon" src="/src/videogame.png" alt="">
+                    <p><span class="special-text">Los ordenadores de juegos</span> siempre andan en la vanguardia de la tecnología de computación y justifican un equipo relativamente caro con las ventajas del rendimiento en los juegos. Es especialmente cierto en el caso del almacenamiento, ya que los juegos de éxito modernos cargan y escriben archivos de forma constante (p. ej., texturas, mapas, niveles y personajes).</p></p>
+                </div>
+            </div>
+
+            <img id="img-agile" class="usage-icon" src="/src/agile.png" alt="">
+
+            <div id="modal-agile" class="modal">
+                <div class="ssd-info-content">
+                    <img id="ssd-icon" src="/src/agile.png" alt="">
+                    <p><span class="special-text">Los SSD </span> requieren menos energía, por lo que contribuyen a mejorar la autonomía de portátiles y tabletas. Además, resisten los impactos, lo que reduce la probabilidad de pérdida de datos en caso de caída de un dispositivo móvil.</p></p>
+                </div>
+            </div>
+
+            <img id="img-server" class="usage-icon" src="/src/server.png" alt="">
+
+            <div id="modal-server" class="modal">
+                <div class="ssd-info-content">
+                    <img id="ssd-icon" src="/src/server.png" alt="">
+                    <p><span class="special-text">Los servidores empresariales</span> necesitan los tiempos de lectura y escritura rápidos de los SSD para prestar servicio adecuadamente a los PC clientes.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="ssd-tipos">
+        <h2 style="text-align: center; margin-top: 20px;">Cuáles son los distintos tipos de SSD</h2>
+
+        <img id="img-ssd-regular" src="/src/ssd-regular.png" alt="" class="makeit-bigger">
+
+        <div id="modal-ssd-regular" class="modal">
+            <div class="ssd-info-content">
+                <p> Serial Advanced Technology Attachment (SATA) es una interfaz más antigua y diseñada específicamente para almacenamiento, con velocidades de hasta 6 GBit/s o unos 600 MB por segundo. SATA está quedando poco a poco de lado en favor de NVMe, que es significativamente más rápido. Sin embargo, los PC o portátiles más antiguos con una unidad de disco duro se seguirían beneficiando de una actualización a un SSD con interfaz SATA.</p>
+            </div>
+        </div>
+
+
+        <img id="img-ssd-nvme" src="/src/ssd-nvme.png" alt="" class="makeit-bigger">
+
+        <div id="modal-nvme" class="modal">
+            <div class="ssd-info-content">
+                <p>PCI Express (PCIe) se utiliza normalmente para conectar tarjetas gráficas, tarjetas de red u otros periféricos de alto rendimiento. Esta interfaz proporciona un gran ancho de banda y baja latencia, por lo que es ideal cuando necesita una comunicación rapidísima entre el SSD y la CPU/RAM. Los SSD que utilizan este tipo de conexión se basan en el estándar de memoria exprés no volátil (NVMe), que ofrece mayor entrada/salida por segundo (IOPS) e incluso menor latencia que SATA (del que hablaremos enseguida). NVMe ofrece hasta 16 GBits por segundo de rendimiento bruto, que gracias a los múltiples canales paralelos se convierten en hasta 4000 MB por segundo.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="/script/script.js"></script>
+</body>
+</html>
